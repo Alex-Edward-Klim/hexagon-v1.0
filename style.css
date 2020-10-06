@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+}
+
+.secondItem {
+  position: absolute;
+  top: 236px;
+  left: 135px;
+}
+
+
+
+.wrapper {
+  /* display: inline-block; */
+  border: 1px solid transparent;
+  height: 353px;
+  width: 252px;
+
+  overflow: hidden;
+
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.wrapper:hover {
+  transform: scale(1.1);
+}
+
+.secondWrapper {
+  /*height: 500px;*/
+  height: 375px;
+  width: 250px;
+  transform: rotate(-45deg);
+
+  /* background-color: lightgreen; */
+
+  overflow: hidden;
+
+  margin-left: -43px;
+  margin-top: -55px;
+}
+
+.firstWrapper {
+  height: 500px;
+  width: 250px;
+  transform: rotate(90deg);
+
+  /**/
+  background-color: grey;
+
+  overflow: hidden;
+}
+
+.pic {
+  height: 500px;
+  width: 250px;
+  background-image: url('./M3H.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  transform: rotate(-45deg);
+}
